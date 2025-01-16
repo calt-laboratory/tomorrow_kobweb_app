@@ -1,0 +1,14 @@
+site:
+  title: "TomorrowKobwebApp"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/tomorrow_kobweb_app.js"
+      api: "build/libs/tomorrow_kobweb_app.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/tomorrow_kobweb_app.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080

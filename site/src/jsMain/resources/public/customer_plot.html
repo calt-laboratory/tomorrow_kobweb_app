@@ -1,0 +1,82 @@
+            <iframe src='about:blank' style='border:none !important;' width='600' height='400' srcdoc="&lt;html lang=&quot;en&quot;>
+   &lt;head>
+       &lt;meta charset=&quot;UTF-8&quot;>
+       &lt;style> html, body { margin: 0; overflow: hidden; } &lt;/style>
+       &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v4.5.1/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
+   &lt;/head>
+   &lt;body>
+          &lt;div id=&quot;H4yVfq&quot;>&lt;/div>
+   &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
+   
+   (function() {
+   // ----------
+   
+       var plotSpec={
+&quot;ggtitle&quot;:{
+&quot;text&quot;:&quot;Tomorrow Customer Number&quot;
+},
+&quot;mapping&quot;:{
+},
+&quot;data&quot;:{
+&quot;createdAt&quot;:[&quot;2024-12-18T20:45&quot;,&quot;2024-12-18T21:24&quot;,&quot;2024-12-18T22:32&quot;,&quot;2024-12-19T09:42&quot;,&quot;2024-12-19T23:31&quot;,&quot;2024-12-20T13:09&quot;,&quot;2024-12-22T15:28&quot;,&quot;2024-12-23T18:17&quot;,&quot;2025-01-06T23:19&quot;,&quot;2025-01-09T23:15&quot;,&quot;2025-01-09T23:29&quot;,&quot;2025-01-09T23:57&quot;,&quot;2025-01-13T00:01&quot;,&quot;2025-01-13T00:16&quot;,&quot;2025-01-13T23:40&quot;,&quot;2025-01-16T23:51&quot;],
+&quot;customerNumber&quot;:[118455.0,118457.0,118460.0,118442.0,118472.0,118476.0,118498.0,118521.0,118517.0,118595.0,118596.0,118586.0,118658.0,118658.0,118681.0,118748.0]
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[{
+&quot;aesthetic&quot;:&quot;x&quot;,
+&quot;discrete&quot;:true,
+&quot;name&quot;:&quot;Date&quot;
+},{
+&quot;aesthetic&quot;:&quot;y&quot;,
+&quot;name&quot;:&quot;Customer Number&quot;,
+&quot;limits&quot;:[null,null]
+}],
+&quot;layers&quot;:[{
+&quot;mapping&quot;:{
+&quot;x&quot;:&quot;createdAt&quot;,
+&quot;y&quot;:&quot;customerNumber&quot;
+},
+&quot;stat&quot;:&quot;identity&quot;,
+&quot;color&quot;:&quot;#ee6666&quot;,
+&quot;sampling&quot;:&quot;none&quot;,
+&quot;inherit_aes&quot;:false,
+&quot;position&quot;:&quot;identity&quot;,
+&quot;geom&quot;:&quot;line&quot;,
+&quot;data&quot;:{
+}
+}],
+&quot;data_meta&quot;:{
+&quot;series_annotations&quot;:[{
+&quot;type&quot;:&quot;str&quot;,
+&quot;column&quot;:&quot;createdAt&quot;
+},{
+&quot;type&quot;:&quot;int&quot;,
+&quot;column&quot;:&quot;customerNumber&quot;
+}]
+},
+&quot;spec_id&quot;:&quot;2&quot;
+};
+       var containerDiv = document.getElementById(&quot;H4yVfq&quot;);
+       
+               var toolbar = null;
+               var plotContainer = containerDiv;               
+               
+       var options = {
+           sizing: {
+               width_mode: &quot;fixed&quot;,
+               height_mode: &quot;fixed&quot;,
+               width: 600.0,
+               height: 400.0
+           }
+       };
+       var fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer, options);
+       if (toolbar) {
+         toolbar.bind(fig);
+       }
+       
+   // ----------
+   })();
+   
+   &lt;/script>
+   &lt;/body>
+&lt;/html>"></iframe>    
